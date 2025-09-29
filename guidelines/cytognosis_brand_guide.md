@@ -39,14 +39,14 @@ Cytognosis represents the intersection of advanced AI technology and human-cente
 ## 3. Core Brand Palette
 
 ### Primary Gradient Colors
-| Color Name | Hex | RGB | Usage |
-|------------|-----|-----|-------|
-| <span style="color: #4A6AD0">**Deep Blue**</span> | <span style="color: #4A6AD0">`#4A6AD0`</span> | 74, 106, 208 | Gradient start |
-| <span style="color: #6585E5">**Cytognosis Blue**</span> | <span style="color: #6585E5">`#6585E5`</span> | 101, 133, 229 | Primary actions |
-| <span style="color: #9095F5">**Transition Purple**</span> | <span style="color: #9095F5">`#9095F5`</span> | 144, 149, 245 | Mid-gradient |
-| <span style="color: #AA9AFA">**Cytognosis Purple**</span> | <span style="color: #AA9AFA">`#AA9AFA`</span> | 170, 154, 250 | Accent |
-| <span style="color: #C0A0FF">**Light Purple**</span> | <span style="color: #C0A0FF">`#C0A0FF`</span> | 192, 160, 255 | Gradient end |
-| <span style="color: #E84A8C">**Tech Pink**</span> | <span style="color: #E84A8C">`#E84A8C`</span> | 232, 74, 140 | Critical accent |
+| Color Name | Preview | Hex | RGB | Usage |
+|------------|---------|-----|-----|-------|
+| **Deep Blue** | ![#4A6AD0](https://via.placeholder.com/20x20/4A6AD0/4A6AD0.png) | `#4A6AD0` | 74, 106, 208 | Gradient start |
+| **Cytognosis Blue** | ![#6585E5](https://via.placeholder.com/20x20/6585E5/6585E5.png) | `#6585E5` | 101, 133, 229 | Primary actions |
+| **Transition Purple** | ![#9095F5](https://via.placeholder.com/20x20/9095F5/9095F5.png) | `#9095F5` | 144, 149, 245 | Mid-gradient |
+| **Cytognosis Purple** | ![#AA9AFA](https://via.placeholder.com/20x20/AA9AFA/AA9AFA.png) | `#AA9AFA` | 170, 154, 250 | Accent |
+| **Light Purple** | ![#C0A0FF](https://via.placeholder.com/20x20/C0A0FF/C0A0FF.png) | `#C0A0FF` | 192, 160, 255 | Gradient end |
+| **Tech Pink** | ![#E84A8C](https://via.placeholder.com/20x20/E84A8C/E84A8C.png) | `#E84A8C` | 232, 74, 140 | Critical accent |
 
 ---
 
@@ -66,17 +66,17 @@ Inspired by Catppuccin Macchiato with softer pastels for maximum calm
 | Overlay | #414559 | - | Subtle overlays |
 
 #### Syntax Colors (Soothing Pastels)
-| Token Type | Hex | Feeling | WCAG AA |
-|------------|-----|---------|----------|
-| Keywords | <span style="color: #8caaee">`#8caaee`</span> | <span style="color: #8caaee">Soft sky blue</span> | ✓ |
-| Strings | <span style="color: #a6d189">`#a6d189`</span> | <span style="color: #a6d189">Gentle sage</span> | ✓ |
-| Functions | <span style="color: #ca9ee6">`#ca9ee6`</span> | <span style="color: #ca9ee6">Soft lavender</span> | ✓ |
-| Variables | <span style="color: #f4b8e4">`#f4b8e4`</span> | <span style="color: #f4b8e4">Pastel pink</span> | ✓ |
-| Numbers | <span style="color: #ef9f76">`#ef9f76`</span> | <span style="color: #ef9f76">Warm peach</span> | ✓ |
-| Comments | <span style="color: #9399b2">`#9399b2`</span> | <span style="color: #9399b2">Calm gray-blue</span> | ✓ |
-| Errors | <span style="color: #e78284">`#e78284`</span> | <span style="color: #e78284">Soft coral</span> | ✓ |
-| Warnings | <span style="color: #e5c890">`#e5c890`</span> | <span style="color: #e5c890">Gentle yellow</span> | ✓ |
-| Success | <span style="color: #a6d189">`#a6d189`</span> | <span style="color: #a6d189">Mint green</span> | ✓ |
+| Token Type | Preview | Hex | Feeling | WCAG AA |
+|------------|---------|-----|---------|----------|
+| Keywords | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) | `#8caaee` | Soft sky blue | ✓ |
+| Strings | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Gentle sage | ✓ |
+| Functions | ![#ca9ee6](https://via.placeholder.com/20x20/ca9ee6/ca9ee6.png) | `#ca9ee6` | Soft lavender | ✓ |
+| Variables | ![#f4b8e4](https://via.placeholder.com/20x20/f4b8e4/f4b8e4.png) | `#f4b8e4` | Pastel pink | ✓ |
+| Numbers | ![#ef9f76](https://via.placeholder.com/20x20/ef9f76/ef9f76.png) | `#ef9f76` | Warm peach | ✓ |
+| Comments | ![#9399b2](https://via.placeholder.com/20x20/9399b2/9399b2.png) | `#9399b2` | Calm gray-blue | ✓ |
+| Errors | ![#e78284](https://via.placeholder.com/20x20/e78284/e78284.png) | `#e78284` | Soft coral | ✓ |
+| Warnings | ![#e5c890](https://via.placeholder.com/20x20/e5c890/e5c890.png) | `#e5c890` | Gentle yellow | ✓ |
+| Success | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Mint green | ✓ |
 
 ### Cytognosis Dawn (Light Theme)
 Soft pastels on a warm, calming light background

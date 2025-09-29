@@ -3,14 +3,14 @@
 ## Core Brand Palette
 
 ### Primary Gradient Colors
-| Color Name | Hex | RGB | Usage |
-|------------|-----|-----|-------|
-| <span style="color: #4A6AD0">**Deep Blue**</span> | <span style="color: #4A6AD0">`#4A6AD0`</span> | 74, 106, 208 | Gradient start |
-| <span style="color: #6585E5">**Cytognosis Blue**</span> | <span style="color: #6585E5">`#6585E5`</span> | 101, 133, 229 | Primary actions |
-| <span style="color: #9095F5">**Transition Purple**</span> | <span style="color: #9095F5">`#9095F5`</span> | 144, 149, 245 | Mid-gradient |
-| <span style="color: #AA9AFA">**Cytognosis Purple**</span> | <span style="color: #AA9AFA">`#AA9AFA`</span> | 170, 154, 250 | Accent |
-| <span style="color: #C0A0FF">**Light Purple**</span> | <span style="color: #C0A0FF">`#C0A0FF`</span> | 192, 160, 255 | Gradient end |
-| <span style="color: #E84A8C">**Tech Pink**</span> | <span style="color: #E84A8C">`#E84A8C`</span> | 232, 74, 140 | Critical accent |
+| Color Name | Preview | Hex | RGB | Usage |
+|------------|---------|-----|-----|-------|
+| **Deep Blue** | ![#4A6AD0](https://via.placeholder.com/20x20/4A6AD0/4A6AD0.png) | `#4A6AD0` | 74, 106, 208 | Gradient start |
+| **Cytognosis Blue** | ![#6585E5](https://via.placeholder.com/20x20/6585E5/6585E5.png) | `#6585E5` | 101, 133, 229 | Primary actions |
+| **Transition Purple** | ![#9095F5](https://via.placeholder.com/20x20/9095F5/9095F5.png) | `#9095F5` | 144, 149, 245 | Mid-gradient |
+| **Cytognosis Purple** | ![#AA9AFA](https://via.placeholder.com/20x20/AA9AFA/AA9AFA.png) | `#AA9AFA` | 170, 154, 250 | Accent |
+| **Light Purple** | ![#C0A0FF](https://via.placeholder.com/20x20/C0A0FF/C0A0FF.png) | `#C0A0FF` | 192, 160, 255 | Gradient end |
+| **Tech Pink** | ![#E84A8C](https://via.placeholder.com/20x20/E84A8C/E84A8C.png) | `#E84A8C` | 232, 74, 140 | Critical accent |
 
 ## Developer Color System
 
@@ -21,74 +21,74 @@ Our developer themes use soothing pastel colors inspired by Catppuccin's Frappé
 Inspired by Catppuccin Macchiato with softer pastels for maximum calm
 
 #### Base Colors
-| Element | Hex | Contrast Ratio | Purpose |
-|---------|-----|----------------|----------|
-| Background | <span style="color: #24273a; background: #f0f0f0; padding: 2px 4px; border-radius: 3px;">`#24273a`</span> | - | Soft dark indigo |
-| Surface | <span style="color: #303446; background: #f0f0f0; padding: 2px 4px; border-radius: 3px;">`#303446`</span> | - | Gentle raised surface |
-| Overlay | <span style="color: #414559; background: #f0f0f0; padding: 2px 4px; border-radius: 3px;">`#414559`</span> | - | Subtle overlays |
-| Text Primary | <span style="color: #cdd6f4; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#cdd6f4`</span> | 3.9:1 | Soft lavender-white |
-| Text Secondary | <span style="color: #bac2de; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#bac2de`</span> | 3.4:1 | Muted text |
-| Text Muted | <span style="color: #a6adc8; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#a6adc8`</span> | 2.9:1 | Disabled states |
+| Element | Preview | Hex | Contrast Ratio | Purpose |
+|---------|---------|-----|----------------|----------|
+| Background | ![#24273a](https://via.placeholder.com/20x20/24273a/24273a.png) | `#24273a` | - | Soft dark indigo |
+| Surface | ![#303446](https://via.placeholder.com/20x20/303446/303446.png) | `#303446` | - | Gentle raised surface |
+| Overlay | ![#414559](https://via.placeholder.com/20x20/414559/414559.png) | `#414559` | - | Subtle overlays |
+| Text Primary | ![#cdd6f4](https://via.placeholder.com/20x20/cdd6f4/cdd6f4.png) | `#cdd6f4` | 3.9:1 | Soft lavender-white |
+| Text Secondary | ![#bac2de](https://via.placeholder.com/20x20/bac2de/bac2de.png) | `#bac2de` | 3.4:1 | Muted text |
+| Text Muted | ![#a6adc8](https://via.placeholder.com/20x20/a6adc8/a6adc8.png) | `#a6adc8` | 2.9:1 | Disabled states |
 
 #### Syntax Colors (Soothing Pastels)
-| Token Type | Hex | Feeling | WCAG AA |
-|------------|-----|---------|----------|
-| Keywords | <span style="color: #8caaee">`#8caaee`</span> | <span style="color: #8caaee">Soft sky blue</span> | ✓ |
-| Strings | <span style="color: #a6d189">`#a6d189`</span> | <span style="color: #a6d189">Gentle sage</span> | ✓ |
-| Functions | <span style="color: #ca9ee6">`#ca9ee6`</span> | <span style="color: #ca9ee6">Soft lavender</span> | ✓ |
-| Variables | <span style="color: #f4b8e4">`#f4b8e4`</span> | <span style="color: #f4b8e4">Pastel pink</span> | ✓ |
-| Numbers | <span style="color: #ef9f76">`#ef9f76`</span> | <span style="color: #ef9f76">Warm peach</span> | ✓ |
-| Comments | <span style="color: #9399b2">`#9399b2`</span> | <span style="color: #9399b2">Calm gray-blue</span> | ✓ |
-| Errors | <span style="color: #e78284">`#e78284`</span> | <span style="color: #e78284">Soft coral</span> | ✓ |
-| Warnings | <span style="color: #e5c890">`#e5c890`</span> | <span style="color: #e5c890">Gentle yellow</span> | ✓ |
-| Success | <span style="color: #a6d189">`#a6d189`</span> | <span style="color: #a6d189">Mint green</span> | ✓ |
+| Token Type | Preview | Hex | Feeling | WCAG AA |
+|------------|---------|-----|---------|----------|
+| Keywords | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) | `#8caaee` | Soft sky blue | ✓ |
+| Strings | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Gentle sage | ✓ |
+| Functions | ![#ca9ee6](https://via.placeholder.com/20x20/ca9ee6/ca9ee6.png) | `#ca9ee6` | Soft lavender | ✓ |
+| Variables | ![#f4b8e4](https://via.placeholder.com/20x20/f4b8e4/f4b8e4.png) | `#f4b8e4` | Pastel pink | ✓ |
+| Numbers | ![#ef9f76](https://via.placeholder.com/20x20/ef9f76/ef9f76.png) | `#ef9f76` | Warm peach | ✓ |
+| Comments | ![#9399b2](https://via.placeholder.com/20x20/9399b2/9399b2.png) | `#9399b2` | Calm gray-blue | ✓ |
+| Errors | ![#e78284](https://via.placeholder.com/20x20/e78284/e78284.png) | `#e78284` | Soft coral | ✓ |
+| Warnings | ![#e5c890](https://via.placeholder.com/20x20/e5c890/e5c890.png) | `#e5c890` | Gentle yellow | ✓ |
+| Success | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Mint green | ✓ |
 
 ### Cytognosis Dawn (Light Theme)
 Soft pastels on a warm, calming light background
 
 #### Base Colors
-| Element | Hex | Contrast Ratio | Purpose |
-|---------|-----|----------------|----------|
-| Background | <span style="color: #eff1f5; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#eff1f5`</span> | - | Soft cloud white |
-| Surface | <span style="color: #e6e9ef; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#e6e9ef`</span> | - | Gentle gray |
-| Overlay | <span style="color: #dce0e8; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#dce0e8`</span> | - | Light overlays |
-| Text Primary | <span style="color: #4c4f69">`#4c4f69`</span> | 3.8:1 | Soft charcoal |
-| Text Secondary | <span style="color: #6c6f85">`#6c6f85`</span> | 3.2:1 | Muted purple-gray |
-| Text Muted | <span style="color: #9ca0b0">`#9ca0b0`</span> | 2.9:1 | Light gray |
+| Element | Preview | Hex | Contrast Ratio | Purpose |
+|---------|---------|-----|----------------|----------|
+| Background | ![#eff1f5](https://via.placeholder.com/20x20/eff1f5/eff1f5.png) | `#eff1f5` | - | Soft cloud white |
+| Surface | ![#e6e9ef](https://via.placeholder.com/20x20/e6e9ef/e6e9ef.png) | `#e6e9ef` | - | Gentle gray |
+| Overlay | ![#dce0e8](https://via.placeholder.com/20x20/dce0e8/dce0e8.png) | `#dce0e8` | - | Light overlays |
+| Text Primary | ![#4c4f69](https://via.placeholder.com/20x20/4c4f69/4c4f69.png) | `#4c4f69` | 3.8:1 | Soft charcoal |
+| Text Secondary | ![#6c6f85](https://via.placeholder.com/20x20/6c6f85/6c6f85.png) | `#6c6f85` | 3.2:1 | Muted purple-gray |
+| Text Muted | ![#9ca0b0](https://via.placeholder.com/20x20/9ca0b0/9ca0b0.png) | `#9ca0b0` | 2.9:1 | Light gray |
 
 #### Syntax Colors (Light Pastels)
-| Token Type | Hex | Contrast | Feeling |
-|------------|-----|----------|----------|
-| Keywords | <span style="color: #7287fd">`#7287fd`</span> | 3.3:1 | <span style="color: #7287fd">Periwinkle</span> |
-| Strings | <span style="color: #40a02b">`#40a02b`</span> | 3.8:1 | <span style="color: #40a02b">Fresh green</span> |
-| Functions | <span style="color: #8839ef">`#8839ef`</span> | 3.4:1 | <span style="color: #8839ef">Soft purple</span> |
-| Variables | <span style="color: #ea76cb">`#ea76cb`</span> | 3.2:1 | <span style="color: #ea76cb">Rose pink</span> |
-| Numbers | <span style="color: #fe640b">`#fe640b`</span> | 3.6:1 | <span style="color: #fe640b">Soft orange</span> |
-| Comments | <span style="color: #8c8fa1">`#8c8fa1`</span> | 3.1:1 | <span style="color: #8c8fa1">Gentle gray</span> |
-| Errors | <span style="color: #e64553">`#e64553`</span> | 3.7:1 | <span style="color: #e64553">Warm red</span> |
-| Warnings | <span style="color: #df8e1d">`#df8e1d`</span> | 3.5:1 | <span style="color: #df8e1d">Golden</span> |
-| Success | <span style="color: #40a02b">`#40a02b`</span> | 3.8:1 | <span style="color: #40a02b">Spring green</span> |
+| Token Type | Preview | Hex | Contrast | Feeling |
+|------------|---------|-----|----------|----------|
+| Keywords | ![#7287fd](https://via.placeholder.com/20x20/7287fd/7287fd.png) | `#7287fd` | 3.3:1 | Periwinkle |
+| Strings | ![#40a02b](https://via.placeholder.com/20x20/40a02b/40a02b.png) | `#40a02b` | 3.8:1 | Fresh green |
+| Functions | ![#8839ef](https://via.placeholder.com/20x20/8839ef/8839ef.png) | `#8839ef` | 3.4:1 | Soft purple |
+| Variables | ![#ea76cb](https://via.placeholder.com/20x20/ea76cb/ea76cb.png) | `#ea76cb` | 3.2:1 | Rose pink |
+| Numbers | ![#fe640b](https://via.placeholder.com/20x20/fe640b/fe640b.png) | `#fe640b` | 3.6:1 | Soft orange |
+| Comments | ![#8c8fa1](https://via.placeholder.com/20x20/8c8fa1/8c8fa1.png) | `#8c8fa1` | 3.1:1 | Gentle gray |
+| Errors | ![#e64553](https://via.placeholder.com/20x20/e64553/e64553.png) | `#e64553` | 3.7:1 | Warm red |
+| Warnings | ![#df8e1d](https://via.placeholder.com/20x20/df8e1d/df8e1d.png) | `#df8e1d` | 3.5:1 | Golden |
+| Success | ![#40a02b](https://via.placeholder.com/20x20/40a02b/40a02b.png) | `#40a02b` | 3.8:1 | Spring green |
 
 ### Semantic Color Tokens
 | Semantic Role | Dark Mode (Dusk) | Light Mode (Dawn) | Emotion |
 |---------------|------------------|-------------------|----------|
-| primary.default | <span style="color: #8caaee">`#8caaee`</span> | <span style="color: #7287fd">`#7287fd`</span> | Trust, calm |
-| primary.hover | <span style="color: #99b8f5">`#99b8f5`</span> | <span style="color: #8396ff">`#8396ff`</span> | Gentle interaction |
-| accent.default | <span style="color: #f4b8e4">`#f4b8e4`</span> | <span style="color: #ea76cb">`#ea76cb`</span> | Joy, optimism |
-| accent.muted | <span style="color: #e5a3d5">`#e5a3d5`</span> | <span style="color: #dd7878">`#dd7878`</span> | Soft warmth |
-| surface.raised | <span style="color: #363a4f; background: #f0f0f0; padding: 2px 4px; border-radius: 3px;">`#363a4f`</span> | <span style="color: #e6e9ef; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#e6e9ef`</span> | Subtle elevation |
-| border.default | <span style="color: #494d64; background: #f0f0f0; padding: 2px 4px; border-radius: 3px;">`#494d64`</span> | <span style="color: #ccd0da; background: #2a2a2a; padding: 2px 4px; border-radius: 3px;">`#ccd0da`</span> | Soft boundaries |
-| border.focus | <span style="color: #8caaee">`#8caaee`</span> | <span style="color: #7287fd">`#7287fd`</span> | Gentle attention |
+| primary.default | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) `#8caaee` | ![#7287fd](https://via.placeholder.com/20x20/7287fd/7287fd.png) `#7287fd` | Trust, calm |
+| primary.hover | ![#99b8f5](https://via.placeholder.com/20x20/99b8f5/99b8f5.png) `#99b8f5` | ![#8396ff](https://via.placeholder.com/20x20/8396ff/8396ff.png) `#8396ff` | Gentle interaction |
+| accent.default | ![#f4b8e4](https://via.placeholder.com/20x20/f4b8e4/f4b8e4.png) `#f4b8e4` | ![#ea76cb](https://via.placeholder.com/20x20/ea76cb/ea76cb.png) `#ea76cb` | Joy, optimism |
+| accent.muted | ![#e5a3d5](https://via.placeholder.com/20x20/e5a3d5/e5a3d5.png) `#e5a3d5` | ![#dd7878](https://via.placeholder.com/20x20/dd7878/dd7878.png) `#dd7878` | Soft warmth |
+| surface.raised | ![#363a4f](https://via.placeholder.com/20x20/363a4f/363a4f.png) `#363a4f` | ![#e6e9ef](https://via.placeholder.com/20x20/e6e9ef/e6e9ef.png) `#e6e9ef` | Subtle elevation |
+| border.default | ![#494d64](https://via.placeholder.com/20x20/494d64/494d64.png) `#494d64` | ![#ccd0da](https://via.placeholder.com/20x20/ccd0da/ccd0da.png) `#ccd0da` | Soft boundaries |
+| border.focus | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) `#8caaee` | ![#7287fd](https://via.placeholder.com/20x20/7287fd/7287fd.png) `#7287fd` | Gentle attention |
 
 ### Cytognosis Brand Palette (Softened Pastels)
 | Color Name | Original | Pastel Version | Usage |
 |------------|----------|----------------|--------|
-| <span style="color: #4A6AD0">**Deep Blue**</span> | <span style="color: #4A6AD0">`#4A6AD0`</span> | <span style="color: #8caaee">`#8caaee`</span> | Primary actions |
-| <span style="color: #6585E5">**Cytognosis Blue**</span> | <span style="color: #6585E5">`#6585E5`</span> | <span style="color: #89b4fa">`#89b4fa`</span> | Links, highlights |
-| <span style="color: #9095F5">**Transition Purple**</span> | <span style="color: #9095F5">`#9095F5`</span> | <span style="color: #ca9ee6">`#ca9ee6`</span> | Functions, methods |
-| <span style="color: #AA9AFA">**Cytognosis Purple**</span> | <span style="color: #AA9AFA">`#AA9AFA`</span> | <span style="color: #cba6f7">`#cba6f7`</span> | Variables |
-| <span style="color: #C0A0FF">**Light Purple**</span> | <span style="color: #C0A0FF">`#C0A0FF`</span> | <span style="color: #f4b8e4">`#f4b8e4`</span> | Accents |
-| <span style="color: #E84A8C">**Tech Pink**</span> | <span style="color: #E84A8C">`#E84A8C`</span> | <span style="color: #e78284">`#e78284`</span> | Errors (softened) |
+| **Deep Blue** | ![#4A6AD0](https://via.placeholder.com/20x20/4A6AD0/4A6AD0.png) `#4A6AD0` | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) `#8caaee` | Primary actions |
+| **Cytognosis Blue** | ![#6585E5](https://via.placeholder.com/20x20/6585E5/6585E5.png) `#6585E5` | ![#89b4fa](https://via.placeholder.com/20x20/89b4fa/89b4fa.png) `#89b4fa` | Links, highlights |
+| **Transition Purple** | ![#9095F5](https://via.placeholder.com/20x20/9095F5/9095F5.png) `#9095F5` | ![#ca9ee6](https://via.placeholder.com/20x20/ca9ee6/ca9ee6.png) `#ca9ee6` | Functions, methods |
+| **Cytognosis Purple** | ![#AA9AFA](https://via.placeholder.com/20x20/AA9AFA/AA9AFA.png) `#AA9AFA` | ![#cba6f7](https://via.placeholder.com/20x20/cba6f7/cba6f7.png) `#cba6f7` | Variables |
+| **Light Purple** | ![#C0A0FF](https://via.placeholder.com/20x20/C0A0FF/C0A0FF.png) `#C0A0FF` | ![#f4b8e4](https://via.placeholder.com/20x20/f4b8e4/f4b8e4.png) `#f4b8e4` | Accents |
+| **Tech Pink** | ![#E84A8C](https://via.placeholder.com/20x20/E84A8C/E84A8C.png) `#E84A8C` | ![#e78284](https://via.placeholder.com/20x20/e78284/e78284.png) `#e78284` | Errors (softened) |
 
 ## Accessibility Considerations
 
