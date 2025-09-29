@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 313.06818 213.63637"
+   width="313.06818"
+   height="213.63637"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="cytognosis-dark-arc.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   inkscape:export-filename="cytognosis-dark-arc.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.76"
+     inkscape:cx="155.68182"
+     inkscape:cy="115.625"
+     inkscape:window-width="1920"
+     inkscape:window-height="930"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg40" />
+  <!-- Define gradients and filters for dark theme -->
+  <defs
+     id="defs23">
+    <!-- Adjusted gradient for C shape on dark background -->
+    <linearGradient
+       id="cGradient"
+       x1="-103.15038"
+       y1="87.815813"
+       x2="72.481251"
+       y2="-87.815813"
+       gradientTransform="scale(0.92437698,1.0818097)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#4A6AD0;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="12%"
+         style="stop-color:#5575DB;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="25%"
+         style="stop-color:#6585E5;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="37%"
+         style="stop-color:#7A90F0;stop-opacity:1"
+         id="stop4" />
+      <stop
+         offset="50%"
+         style="stop-color:#9095F5;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="62%"
+         style="stop-color:#AA9AFA;stop-opacity:1"
+         id="stop6" />
+      <stop
+         offset="75%"
+         style="stop-color:#C0A0FF;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="87%"
+         style="stop-color:#D5B0FF;stop-opacity:1"
+         id="stop8" />
+      <stop
+         offset="100%"
+         style="stop-color:#E5C0FF;stop-opacity:1"
+         id="stop9" />
+    </linearGradient>
+    <!-- Brighter cell gradient for dark background -->
+    <radialGradient
+       id="cellGradient"
+       cx="-6.7200002"
+       cy="-6.7200002"
+       fx="-6.7200002"
+       fy="-6.7200002"
+       r="33.599999"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#B0C0FF;stop-opacity:0.9"
+         id="stop10" />
+      <stop
+         offset="20%"
+         style="stop-color:#A0B0F5;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="50%"
+         style="stop-color:#9090F0;stop-opacity:1"
+         id="stop12" />
+      <stop
+         offset="80%"
+         style="stop-color:#8080E5;stop-opacity:1"
+         id="stop13" />
+      <stop
+         offset="100%"
+         style="stop-color:#7070E0;stop-opacity:1"
+         id="stop14" />
+    </radialGradient>
+    <!-- Brighter nodes gradient -->
+    <radialGradient
+       id="nodeGradient">
+      <stop
+         offset="0%"
+         style="stop-color:#C0A0FF;stop-opacity:1"
+         id="stop15" />
+      <stop
+         offset="100%"
+         style="stop-color:#AA9AFA;stop-opacity:1"
+         id="stop16" />
+    </radialGradient>
+    <!-- Arc beam gradients for dark background -->
+    <linearGradient
+       id="arcGradient1"
+       x1="5.3"
+       y1="-46.8"
+       x2="46.8"
+       y2="-5.3"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#C0B0FD;stop-opacity:1"
+         id="stop17" />
+      <stop
+         offset="50%"
+         style="stop-color:#D0C0FF;stop-opacity:0.8"
+         id="stop18" />
+      <stop
+         offset="100%"
+         style="stop-color:#E0D0FF;stop-opacity:0.6"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="arcGradient2"
+       x1="9.3"
+       y1="-66"
+       x2="66"
+       y2="-9.3"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#D5C5FF;stop-opacity:0.9"
+         id="stop20" />
+      <stop
+         offset="50%"
+         style="stop-color:#E5D5FF;stop-opacity:0.7"
+         id="stop21" />
+      <stop
+         offset="100%"
+         style="stop-color:#F0E5FF;stop-opacity:0.5"
+         id="stop22" />
+    </linearGradient>
+    <!-- Glow filter for central node -->
+    <filter
+       id="cellGlow"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur22" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offsetblur"
+         id="feOffset22" />
+      <feFlood
+         flood-color="#AA9AFA"
+         flood-opacity="0.6"
+         id="feFlood22" />
+      <feComposite
+         in2="offsetblur"
+         operator="in"
+         id="feComposite22" />
+      <feMerge
+         id="feMerge23">
+        <feMergeNode
+           id="feMergeNode22" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode23" />
+      </feMerge>
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#nodeGradient"
+       id="radialGradient40"
+       cx="-42"
+       cy="-42"
+       fx="-42"
+       fy="-42"
+       r="10"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#nodeGradient"
+       id="radialGradient41"
+       cx="-56"
+       cy="0"
+       fx="-56"
+       fy="0"
+       r="10"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#nodeGradient"
+       id="radialGradient42"
+       cx="-42"
+       cy="42"
+       fx="-42"
+       fy="42"
+       r="10"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#nodeGradient"
+       id="radialGradient43"
+       cx="0"
+       cy="56"
+       fx="0"
+       fy="56"
+       r="10"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#nodeGradient"
+       id="radialGradient44"
+       cx="42"
+       cy="42"
+       fx="42"
+       fy="42"
+       r="10"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Navy blue background -->
+  <rect
+     width="313.06818"
+     height="213.63637"
+     fill="#2a2545"
+     id="rect23"
+     x="0"
+     y="0"
+     style="stroke-width:0.609567" />
+  <!-- Logo -->
+  <g
+     transform="matrix(0.85,0,0,0.85,155.68182,85.909092)"
+     id="g40">
+    <!-- C-shaped letter -->
+    <path
+       d="M 67,-67 A 95,95 0 1 0 67,67 L 53,53 a 75,75 0 1 1 0,-106 z"
+       fill="url(#cGradient)"
+       id="path23"
+       style="fill:url(#cGradient)" />
+    <!-- Radar signal beams as arcs -->
+    <g
+       id="g25">
+      <!-- First arc beam -->
+      <path
+         d="M 7.8,-44.3 A 45,45 0 0 1 44.3,-7.8"
+         fill="none"
+         stroke="url(#arcGradient1)"
+         stroke-width="5"
+         stroke-linecap="round"
+         opacity="0.9"
+         id="path24"
+         style="stroke:url(#arcGradient1)" />
+      <!-- Second arc beam -->
+      <path
+         d="M 11.3,-64 A 65,65 0 0 1 64,-11.3"
+         fill="none"
+         stroke="url(#arcGradient2)"
+         stroke-width="4"
+         stroke-linecap="round"
+         opacity="0.8"
+         id="path25"
+         style="stroke:url(#arcGradient2)" />
+    </g>
+    <!-- Network Structure -->
+    <g
+       id="g39">
+      <!-- Connection lines -->
+      <g
+         stroke="#aa9afa"
+         stroke-width="3"
+         fill="none"
+         opacity="0.8"
+         id="g29">
+        <line
+           x1="-16"
+           y1="-16"
+           x2="-35"
+           y2="-35"
+           id="line25" />
+        <line
+           x1="-22"
+           y1="0"
+           x2="-48"
+           y2="0"
+           id="line26" />
+        <line
+           x1="-16"
+           y1="16"
+           x2="-35"
+           y2="35"
+           id="line27" />
+        <line
+           x1="0"
+           y1="22"
+           x2="0"
+           y2="48"
+           id="line28" />
+        <line
+           x1="16"
+           y1="16"
+           x2="35"
+           y2="35"
+           id="line29" />
+      </g>
+      <!-- Outer nodes -->
+      <g
+         id="g38">
+        <circle
+           cx="-42"
+           cy="-42"
+           r="10"
+           fill="url(#nodeGradient)"
+           id="circle29"
+           style="fill:url(#radialGradient40)" />
+        <circle
+           cx="-42"
+           cy="-42"
+           r="6"
+           fill="#2a2545"
+           id="circle30" />
+        <circle
+           cx="-56"
+           cy="0"
+           r="10"
+           fill="url(#nodeGradient)"
+           id="circle31"
+           style="fill:url(#radialGradient41)" />
+        <circle
+           cx="-56"
+           cy="0"
+           r="6"
+           fill="#2a2545"
+           id="circle32" />
+        <circle
+           cx="-42"
+           cy="42"
+           r="10"
+           fill="url(#nodeGradient)"
+           id="circle33"
+           style="fill:url(#radialGradient42)" />
+        <circle
+           cx="-42"
+           cy="42"
+           r="6"
+           fill="#2a2545"
+           id="circle34" />
+        <circle
+           cx="0"
+           cy="56"
+           r="10"
+           fill="url(#nodeGradient)"
+           id="circle35"
+           style="fill:url(#radialGradient43)" />
+        <circle
+           cx="0"
+           cy="56"
+           r="6"
+           fill="#2a2545"
+           id="circle36" />
+        <circle
+           cx="42"
+           cy="42"
+           r="10"
+           fill="url(#nodeGradient)"
+           id="circle37"
+           style="fill:url(#radialGradient44)" />
+        <circle
+           cx="42"
+           cy="42"
+           r="6"
+           fill="#2a2545"
+           id="circle38" />
+      </g>
+      <!-- Central cell node -->
+      <circle
+         cx="0"
+         cy="0"
+         r="24"
+         fill="url(#cellGradient)"
+         filter="url(#cellGlow)"
+         id="circle39"
+         style="fill:url(#cellGradient)" />
+      <!-- Blue light highlight -->
+      <ellipse
+         cx="-5"
+         cy="-8"
+         rx="10"
+         ry="7"
+         fill="#d0e0ff"
+         opacity="0.4"
+         id="ellipse39" />
+    </g>
+  </g>
+  <!-- CYTOGNOSIS Text -->
+  <text
+     x="155.68182"
+     y="205.90909"
+     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+     font-size="42px"
+     font-weight="700"
+     fill="#f5f5ff"
+     text-anchor="middle"
+     letter-spacing="3"
+     id="text40">CYTOGNOSIS</text>
+</svg>

@@ -1,0 +1,266 @@
+# Cytognosis Starship Preset
+# Soothing pastel theme optimized for calm, positive coding
+# Default: Dark mode (Dusk) - comment/uncomment to switch
+# Install: Copy to ~/.config/starship.toml
+
+format = """
+[](fg:crust)\
+$os\
+$username\
+$hostname\
+[](fg:crust bg:mantle)\
+$directory\
+[](fg:mantle bg:surface0)\
+$git_branch\
+$git_status\
+[](fg:surface0 bg:surface1)\
+$nodejs\
+$rust\
+$golang\
+$python\
+$docker_context\
+$time\
+[](fg:surface1)\
+$line_break$character"""
+
+# DEFAULT THEME: Dark mode for reduced eye strain
+palette = 'cytognosis_dusk'
+
+# ALTERNATIVE: Light mode (uncomment to use)
+# palette = 'cytognosis_dawn'
+
+[palettes.cytognosis_dusk]
+# Soothing pastel colors on soft dark background
+# Based on Catppuccin Macchiato with enhanced pastels
+crust = '#232634'
+mantle = '#292c3c'
+base = '#303446'
+surface0 = '#414559'
+surface1 = '#51576d'
+surface2 = '#626880'
+overlay0 = '#737994'
+overlay1 = '#838ba7'
+overlay2 = '#9399b2'
+subtext0 = '#a6adc8'
+subtext1 = '#bac2de'
+text = '#cdd6f4'
+
+# Calming pastel palette
+rosewater = '#f2d5cf'
+flamingo = '#eebebe'
+pink = '#f4b8e4'    # Soft pink
+mauve = '#ca9ee6'   # Gentle lavender
+red = '#e78284'     # Soft coral
+maroon = '#ea999c'
+peach = '#ef9f76'   # Warm peach
+yellow = '#e5c890'  # Gentle gold
+green = '#a6d189'   # Sage green
+teal = '#81c8be'    # Seafoam
+sky = '#99d1db'     # Soft sky
+sapphire = '#85c1dc'
+blue = '#8caaee'    # Periwinkle
+lavender = '#babbf1' # Light lavender
+
+[palettes.cytognosis_dawn]
+# Soft pastels on calming light background
+# For daytime or high-light environments
+crust = '#dce0e8'
+mantle = '#e6e9ef'
+base = '#eff1f5'
+surface0 = '#ccd0da'
+surface1 = '#bcc0cc'
+surface2 = '#acb0be'
+overlay0 = '#9ca0b0'
+overlay1 = '#8c8fa1'
+overlay2 = '#7c7f93'
+subtext0 = '#6c6f85'
+subtext1 = '#5c5f77'
+text = '#4c4f69'
+
+# Bright but soft pastels for light mode
+rosewater = '#dc8a78'
+flamingo = '#dd7878'
+pink = '#ea76cb'    # Rose
+mauve = '#8839ef'   # Purple
+red = '#d20f39'     # Cherry
+maroon = '#e64553'
+peach = '#fe640b'   # Tangerine
+yellow = '#df8e1d'  # Honey
+green = '#40a02b'   # Forest
+teal = '#179299'    # Teal
+sky = '#04a5e5'     # Sky
+sapphire = '#209fb5'
+blue = '#1e66f5'    # Royal blue
+lavender = '#7287fd' # Periwinkle
+
+[os]
+disabled = false
+style = "bg:crust fg:text bold"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = ""
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Pop = ""
+
+[username]
+show_always = true
+style_user = "bg:crust fg:lavender bold"
+style_root = "bg:crust fg:flamingo bold"
+format = '[ $user ]($style)'
+
+[hostname]
+style = "bg:crust fg:sapphire"
+format = '[@$hostname ]($style)'
+disabled = false
+
+[directory]
+style = "bg:mantle fg:text bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo = true
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+"cytognosis" = "🧬 "
+
+[git_branch]
+symbol = ""
+style = "bg:surface0 fg:lavender bold"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:surface0 fg:text"
+format = '[$all_status$ahead_behind]($style)'
+conflicted = '🏳 '
+up_to_date = ' '
+untracked = ' '
+ahead = '⇡${count} '
+diverged = '⇕⇡${ahead_count}⇣${behind_count} '
+behind = '⇣${count} '
+stashed = '󰏗 '
+modified = ' '
+staged = '[++\($count\)](green) '
+renamed = '󰖷 '
+deleted = ' '
+
+[nodejs]
+symbol = ""
+style = "bg:surface1 fg:green"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "bg:surface1 fg:peach"
+format = '[ $symbol ($version) ]($style)'
+
+[golang]
+symbol = ""
+style = "bg:surface1 fg:teal"
+format = '[ $symbol ($version) ]($style)'
+
+[python]
+symbol = ""
+style = "bg:surface1 fg:yellow"
+format = '[ $symbol ($version) ]($style)'
+
+[docker_context]
+symbol = ""
+style = "bg:surface1 fg:sky"
+format = '[ $symbol $context ]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:surface1 fg:subtext0"
+format = '[ 󱑍 $time ]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[](fg:green bold)'
+error_symbol = '[](fg:flamingo bold)'
+vimcmd_symbol = '[](fg:green bold)'
+vimcmd_replace_one_symbol = '[](fg:mauve bold)'
+vimcmd_replace_symbol = '[](fg:mauve bold)'
+vimcmd_visual_symbol = '[](fg:yellow bold)'
+
+# Accessibility enhancements
+[battery]
+full_symbol = "󰁹"
+charging_symbol = "󰂄"
+discharging_symbol = "󰂃"
+unknown_symbol = "󰁽"
+empty_symbol = "󰂎"
+disabled = false
+format = "[$symbol$percentage]($style) "
+
+[[battery.display]]
+threshold = 30
+style = "fg:flamingo bold"
+
+[[battery.display]]
+threshold = 70
+style = "fg:yellow"
+
+[[battery.display]]
+threshold = 100
+style = "fg:green"
+
+[memory_usage]
+disabled = false
+threshold = 75
+format = "via $symbol [${ram_pct}]($style) "
+style = "fg:subtext0 dimmed"
+symbol = "󰍛"
+
+[status]
+style = "bg:red fg:text"
+symbol = "🚫"
+format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+
+[cmd_duration]
+min_time = 2_000
+format = "took [$duration](fg:yellow bold)"
+show_milliseconds = false
+disabled = false
+
+# Custom modules for Cytognosis development
+[custom.cytognosis_env]
+description = "Shows active Cytognosis environment"
+command = "echo $CYTOGNOSIS_ENV"
+when = 'test "$CYTOGNOSIS_ENV" != ""'
+style = "fg:sapphire bold"
+format = "[ cyto:$output ]($style)"
+
+[custom.cytognosis_model]
+description = "Shows active AI model"
+command = "echo $CYTOGNOSIS_MODEL"
+when = 'test "$CYTOGNOSIS_MODEL" != ""'
+style = "fg:lavender"
+format = "[󰧑 $output ]($style)"
