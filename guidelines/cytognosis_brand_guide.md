@@ -41,12 +41,12 @@ Cytognosis represents the intersection of advanced AI technology and human-cente
 ### Primary Gradient Colors
 | Color Name | Preview | Hex | RGB | Usage |
 |------------|---------|-----|-----|-------|
-| **Deep Blue** | ![#4A6AD0](https://via.placeholder.com/20x20/4A6AD0/4A6AD0.png) | `#4A6AD0` | 74, 106, 208 | Gradient start |
-| **Cytognosis Blue** | ![#6585E5](https://via.placeholder.com/20x20/6585E5/6585E5.png) | `#6585E5` | 101, 133, 229 | Primary actions |
-| **Transition Purple** | ![#9095F5](https://via.placeholder.com/20x20/9095F5/9095F5.png) | `#9095F5` | 144, 149, 245 | Mid-gradient |
-| **Cytognosis Purple** | ![#AA9AFA](https://via.placeholder.com/20x20/AA9AFA/AA9AFA.png) | `#AA9AFA` | 170, 154, 250 | Accent |
-| **Light Purple** | ![#C0A0FF](https://via.placeholder.com/20x20/C0A0FF/C0A0FF.png) | `#C0A0FF` | 192, 160, 255 | Gradient end |
-| **Tech Pink** | ![#E84A8C](https://via.placeholder.com/20x20/E84A8C/E84A8C.png) | `#E84A8C` | 232, 74, 140 | Critical accent |
+| **Deep Blue** | ![#4A6AD0](https://img.shields.io/badge/-4A6AD0-4A6AD0?style=flat-square) | `#4A6AD0` | 74, 106, 208 | Gradient start |
+| **Cytognosis Blue** | ![#6585E5](https://img.shields.io/badge/-6585E5-6585E5?style=flat-square) | `#6585E5` | 101, 133, 229 | Primary actions |
+| **Transition Purple** | ![#9095F5](https://img.shields.io/badge/-9095F5-9095F5?style=flat-square) | `#9095F5` | 144, 149, 245 | Mid-gradient |
+| **Cytognosis Purple** | ![#AA9AFA](https://img.shields.io/badge/-AA9AFA-AA9AFA?style=flat-square) | `#AA9AFA` | 170, 154, 250 | Accent |
+| **Light Purple** | ![#C0A0FF](https://img.shields.io/badge/-C0A0FF-C0A0FF?style=flat-square) | `#C0A0FF` | 192, 160, 255 | Gradient end |
+| **Tech Pink** | ![#E84A8C](https://img.shields.io/badge/-E84A8C-E84A8C?style=flat-square) | `#E84A8C` | 232, 74, 140 | Critical accent |
 
 ---
 
@@ -68,15 +68,15 @@ Inspired by Catppuccin Macchiato with softer pastels for maximum calm
 #### Syntax Colors (Soothing Pastels)
 | Token Type | Preview | Hex | Feeling | WCAG AA |
 |------------|---------|-----|---------|----------|
-| Keywords | ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) | `#8caaee` | Soft sky blue | ✓ |
-| Strings | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Gentle sage | ✓ |
-| Functions | ![#ca9ee6](https://via.placeholder.com/20x20/ca9ee6/ca9ee6.png) | `#ca9ee6` | Soft lavender | ✓ |
-| Variables | ![#f4b8e4](https://via.placeholder.com/20x20/f4b8e4/f4b8e4.png) | `#f4b8e4` | Pastel pink | ✓ |
-| Numbers | ![#ef9f76](https://via.placeholder.com/20x20/ef9f76/ef9f76.png) | `#ef9f76` | Warm peach | ✓ |
-| Comments | ![#9399b2](https://via.placeholder.com/20x20/9399b2/9399b2.png) | `#9399b2` | Calm gray-blue | ✓ |
-| Errors | ![#e78284](https://via.placeholder.com/20x20/e78284/e78284.png) | `#e78284` | Soft coral | ✓ |
-| Warnings | ![#e5c890](https://via.placeholder.com/20x20/e5c890/e5c890.png) | `#e5c890` | Gentle yellow | ✓ |
-| Success | ![#a6d189](https://via.placeholder.com/20x20/a6d189/a6d189.png) | `#a6d189` | Mint green | ✓ |
+| Keywords | ![#8caaee](https://img.shields.io/badge/-8caaee-8caaee?style=flat-square) | `#8caaee` | Soft sky blue | ✓ |
+| Strings | ![#a6d189](https://img.shields.io/badge/-a6d189-a6d189?style=flat-square) | `#a6d189` | Gentle sage | ✓ |
+| Functions | ![#ca9ee6](https://img.shields.io/badge/-ca9ee6-ca9ee6?style=flat-square) | `#ca9ee6` | Soft lavender | ✓ |
+| Variables | ![#f4b8e4](https://img.shields.io/badge/-f4b8e4-f4b8e4?style=flat-square) | `#f4b8e4` | Pastel pink | ✓ |
+| Numbers | ![#ef9f76](https://img.shields.io/badge/-ef9f76-ef9f76?style=flat-square) | `#ef9f76` | Warm peach | ✓ |
+| Comments | ![#9399b2](https://img.shields.io/badge/-9399b2-9399b2?style=flat-square) | `#9399b2` | Calm gray-blue | ✓ |
+| Errors | ![#e78284](https://img.shields.io/badge/-e78284-e78284?style=flat-square) | `#e78284` | Soft coral | ✓ |
+| Warnings | ![#e5c890](https://img.shields.io/badge/-e5c890-e5c890?style=flat-square) | `#e5c890` | Gentle yellow | ✓ |
+| Success | ![#a6d189](https://img.shields.io/badge/-a6d189-a6d189?style=flat-square) | `#a6d189` | Mint green | ✓ |
 
 ### Cytognosis Dawn (Light Theme)
 Soft pastels on a warm, calming light background

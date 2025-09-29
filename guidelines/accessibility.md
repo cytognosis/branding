@@ -19,7 +19,7 @@ The Cytognosis Foundation is committed to creating inclusive brand experiences t
 - **Smooth transitions**: 200-300ms duration maximum
 
 ### Focus Management
-- **Focus indicators**: 3px solid border in brand blue ![#8caaee](https://via.placeholder.com/20x20/8caaee/8caaee.png) `#8caaee`
+- **Focus indicators**: 3px solid border in brand blue ![#8caaee](https://img.shields.io/badge/-8caaee-8caaee?style=flat-square) `#8caaee`
 - **Logical tab order**: Follow visual flow
 - **Skip links**: Provide shortcuts to main content
 - **Visible focus**: Never remove focus indicators
