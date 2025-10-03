@@ -120,6 +120,8 @@
 /* Dropdown Navigation */
 nav ul li.dropdown {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 /* Ensure team nav item aligns with others */
@@ -133,10 +135,8 @@ nav ul li.dropdown {
 }
 
 nav ul li.dropdown > a {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
     padding: 0.5rem 0;
+    gap: 5px;
 }
 
 nav ul li.dropdown > a i {
