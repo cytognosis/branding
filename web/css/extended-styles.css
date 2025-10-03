@@ -1,8 +1,13 @@
 /* Extended Styles for Multi-Page Website */
 
-/* Dropdown Menu Styles */
+/* Dropdown Navigation */
 nav ul li.dropdown {
     position: relative;
+}
+
+/* Team nav item spacing */
+.team-nav-item {
+    margin-left: 1.5rem;
 }
 
 nav ul li.dropdown > a {
@@ -1157,14 +1162,63 @@ header.scrolled .logo img {
     gap: 2rem;
 }
 
+.team-member {
+    width: 100%;
+}
+
+/* Force all first team members to have the same height */
+.team-column .team-member:nth-child(2) {
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member .member-photo {
+    flex-shrink: 0;
+}
+
+.team-member .member-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member .member-bio {
+    flex: 1;
+}
+
 .column-title {
     color: var(--primary-blue);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
     text-align: center;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid var(--primary-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    white-space: nowrap;
+}
+
+.column-title i {
+    font-size: 1.1rem;
+}
+
+.leadership-column .column-title {
+    color: var(--primary-blue);
+    border-bottom-color: var(--primary-blue);
+}
+
+.directors-column .column-title {
+    color: var(--primary-purple);
+    border-bottom-color: var(--primary-purple);
+}
+
+.advisors-column .column-title {
+    color: var(--primary-dark);
+    border-bottom-color: var(--primary-dark);
 }
 
 .team-members {

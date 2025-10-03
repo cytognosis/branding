@@ -1038,14 +1038,9 @@ footer {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Removed decorative gradient line to avoid double borders with column titles */
 .team-member::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--gradient-bg);
+    display: none;
 }
 
 .member-photo {
