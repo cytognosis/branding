@@ -5,6 +5,16 @@ nav ul li.dropdown {
     position: relative;
 }
 
+/* Ensure team nav item aligns with others */
+.team-nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.team-nav-item a {
+    padding: 0.5rem 0;
+}
+
 nav ul li.dropdown > a {
     display: flex;
     align-items: center;
