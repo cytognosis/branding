@@ -5,11 +5,6 @@ nav ul li.dropdown {
     position: relative;
 }
 
-/* Team nav item spacing */
-.team-nav-item {
-    margin-left: 1.5rem;
-}
-
 nav ul li.dropdown > a {
     display: flex;
     align-items: center;
