@@ -1196,18 +1196,7 @@ header.scrolled .logo img {
 }
 
 .column-title {
-    color: var(--primary-blue);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0;
-    text-align: center;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--primary-blue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4rem;
-    white-space: nowrap;
+    display: none;
 }
 
 .column-title i {
