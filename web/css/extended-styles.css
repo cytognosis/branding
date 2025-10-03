@@ -1,5 +1,122 @@
 /* Extended Styles for Multi-Page Website */
 
+/* Bio Page Styles */
+.bio-page {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 4rem 0;
+}
+
+.bio-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.bio-photo {
+    flex-shrink: 0;
+}
+
+.bio-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary-blue);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.2);
+}
+
+.bio-title {
+    flex: 1;
+    padding-top: 1rem;
+}
+
+.bio-title h1 {
+    font-size: 2.5rem;
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.bio-role {
+    font-size: 1.3rem;
+    color: var(--primary-blue);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.bio-links {
+    margin-top: 1.5rem;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-blue);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    background: var(--primary-blue);
+    color: white;
+    transform: translateX(-5px);
+}
+
+.bio-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    line-height: 1.8;
+}
+
+.bio-content p {
+    font-size: 1.1rem;
+    color: var(--dark-gray);
+    margin-bottom: 1.5rem;
+}
+
+.bio-content p:first-child::first-letter {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    float: left;
+    line-height: 1;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+@media (max-width: 768px) {
+    .bio-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .bio-photo img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .bio-title h1 {
+        font-size: 2rem;
+    }
+    
+    .bio-content {
+        padding: 2rem;
+    }
+}
+
 /* Dropdown Navigation */
 nav ul li.dropdown {
     position: relative;
