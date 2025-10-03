@@ -16,9 +16,10 @@ nav ul li.dropdown {
 }
 
 nav ul li.dropdown > a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 5px;
+    vertical-align: middle;
 }
 
 nav ul li.dropdown > a i {
