@@ -120,27 +120,11 @@
 /* Dropdown Navigation */
 nav ul li.dropdown {
     position: relative;
-    display: flex;
-    align-items: center;
-}
-
-/* Ensure team nav item aligns with others */
-.team-nav-item {
-    display: flex;
-    align-items: center;
-}
-
-.team-nav-item a {
-    padding: 0.5rem 0;
-}
-
-nav ul li.dropdown > a {
-    padding: 0.5rem 0;
-    gap: 5px;
 }
 
 nav ul li.dropdown > a i {
     font-size: 0.7rem;
+    margin-left: 5px;
     transition: transform 0.3s ease;
 }
 

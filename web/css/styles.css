@@ -197,6 +197,8 @@ nav ul {
 
 nav ul li {
     margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li a {
@@ -204,6 +206,7 @@ nav ul li a {
     font-weight: 500;
     position: relative;
     padding: 0.5rem 0;
+    display: inline-block;
 }
 
 nav ul li a::after {
