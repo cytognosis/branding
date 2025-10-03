@@ -341,10 +341,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     loginButton.classList.remove('user-logged-in');
                     loginButton.innerHTML = 'Log In';
+                    loginButton.onclick = null; // Clear the logout handler
                     showTeamSection(false);
                     window.location.reload();
                 }
             };
+        } else {
+            // Reset to login state
+            loginButton.classList.remove('user-logged-in');
+            loginButton.innerHTML = 'Log In';
+            loginButton.onclick = null; // Clear any existing handler
         }
     }
 
