@@ -1,14 +1,14 @@
 /**
  * Form API Configuration
- * Update these URLs after deploying Google Apps Scripts
+ * Google Apps Script web app URLs for form submission
  */
 
 const FORM_ENDPOINTS = {
-  // Contact form endpoint - update after deploying contact-form.gs
-  contact: 'REPLACE_WITH_CONTACT_FORM_WEB_APP_URL',
+  // Contact form endpoint - Cytognosis Contact Form Handler
+  contact: 'https://script.google.com/macros/s/AKfycbwbI7_neM-tWLM0_DSsTjKOJ9S8y3N3O6Ic4pOaJd_ATGZvDWRIUavBW0sJEvsMvl2FRQ/exec',
   
-  // Partnership form endpoint - update after deploying partner-form.gs
-  partnership: 'REPLACE_WITH_PARTNERSHIP_FORM_WEB_APP_URL',
+  // Partnership form endpoint - Cytognosis Partnership Form Handler
+  partnership: 'https://script.google.com/macros/s/AKfycbyfSAFKQZ1r932lUt6Lj4GsDcJPK-iNNBjNSWglmrBcwUyUomE3CYxJ5KLw1RciG8-g3w/exec',
   
   // Stories form endpoint - to be implemented in Phase 2
   stories: 'REPLACE_WITH_STORIES_FORM_WEB_APP_URL',
