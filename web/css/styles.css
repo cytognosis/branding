@@ -1023,14 +1023,14 @@ footer {
 }
 
 .team-member {
-    background: var(--white);
-    border-radius: 15px;
-    padding: 2rem;
+    background: transparent;
+    border-radius: 0;
+    padding: 2rem 0;
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: none;
     transition: var(--transition);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .team-member:hover {
