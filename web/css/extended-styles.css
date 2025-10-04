@@ -192,7 +192,7 @@ nav ul li.dropdown:hover > a i {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 0.5rem);
     left: 0;
     background: var(--primary-dark);
     min-width: 200px;
@@ -201,11 +201,6 @@ nav ul li.dropdown:hover > a i {
     padding: 0.5rem 0;
     margin-top: 0;
     z-index: 1001;
-}
-
-/* Add padding to parent to bridge the gap */
-nav ul li.dropdown {
-    padding-bottom: 0.5rem;
 }
 
 nav ul li.dropdown:hover .dropdown-menu {
