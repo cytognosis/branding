@@ -195,21 +195,30 @@ nav ul li.dropdown:hover > a i {
     top: calc(100% + 0.5rem);
     left: 0;
     background: var(--primary-dark);
-    min-width: 200px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    padding: 0.5rem 0;
+    min-width: 220px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 0.75rem 0;
     margin-top: 0;
     z-index: 1001;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
 }
 
 nav ul li.dropdown:hover .dropdown-menu {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 /* Keep dropdown visible when hovering over it */
 .dropdown-menu:hover {
-    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 .dropdown-menu li {
@@ -219,15 +228,40 @@ nav ul li.dropdown:hover .dropdown-menu {
 
 .dropdown-menu li a {
     display: block;
-    padding: 0.7rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     color: var(--white);
     white-space: nowrap;
-    transition: background 0.3s ease;
+    transition: all 0.2s ease;
+    position: relative;
+    font-weight: 500;
 }
 
-.dropdown-menu li a:hover,
+.dropdown-menu li a:hover {
+    background: linear-gradient(135deg, rgba(67, 97, 238, 0.15), rgba(157, 132, 183, 0.15));
+    padding-left: 1.75rem;
+    color: #A0C4FF;
+}
+
 .dropdown-menu li a.active {
-    background: rgba(67, 97, 238, 0.2);
+    background: linear-gradient(135deg, rgba(67, 97, 238, 0.25), rgba(157, 132, 183, 0.25));
+    color: #A0C4FF;
+    border-left: 3px solid var(--primary-blue);
+}
+
+.dropdown-menu li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 0;
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple));
+    transition: height 0.2s ease;
+}
+
+.dropdown-menu li a:hover::before {
+    height: 70%;
 }
 
 .dropdown-menu li a::after {
