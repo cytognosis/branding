@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function sendContactEmail(formData) {
         try {
             // Google Apps Script Web App URL (Version 2 - Updated Oct 5, 2025)
-            const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwbI7_neMtWLM0_DSeTjKO.J9S8y3N3Q6ic4p0a.ld_ATGZvDWRlIJavBW0sJEvs/exec';
+            const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwbI7_neM-tWLM0_DSsTjKOJ9S8y3N3O6Ic4pOaJd_ATGZvDWRIUavBW0sJEvsMvl2FRQ/exec';
             
             console.log('Sending email via Google Apps Script (iframe method)...', formData);
             
