@@ -360,12 +360,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Show/hide team section
+    // Show/hide team section and get involved section
     function showTeamSection(isVisible) {
         const teamSection = document.getElementById('team');
         const teamNavItems = document.querySelectorAll('.team-nav-item');
+        const getInvolvedNavItems = document.querySelectorAll('.get-involved-nav-item');
+        
         if (teamSection) teamSection.style.display = isVisible ? 'block' : 'none';
         teamNavItems.forEach(item => item.style.display = isVisible ? 'list-item' : 'none');
+        getInvolvedNavItems.forEach(item => item.style.display = isVisible ? 'list-item' : 'none');
+        
         if (isVisible) highlightNavigation();
     }
 
